@@ -1,0 +1,55 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    display: none;
+}
+.bank-container {
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    display: none;
+}
+
+.bank-container .text {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.bank-container .title {
+    margin: 5px 0px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.bank-container .qrbank {
+    width: 200px;
+    border: 2px solid #ffffff;
+    margin-bottom: 20px;
+}
+
+.bank-container .qrbank:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.5);
+}
+.bank-container button {
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.bank-container button:hover {
+    color: #111;
+    background: #f5f5f5;
+}
